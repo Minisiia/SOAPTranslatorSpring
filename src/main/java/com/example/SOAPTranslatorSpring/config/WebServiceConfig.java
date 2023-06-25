@@ -13,7 +13,6 @@ import org.springframework.ws.transport.http.MessageDispatcherServlet;
 import org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition;
 import org.springframework.xml.xsd.SimpleXsdSchema;
 import org.springframework.xml.xsd.XsdSchema;
-import repository.TranslateRepository;
 
 @Configuration
 @EnableWs
@@ -31,10 +30,6 @@ public class WebServiceConfig extends WsConfigurerAdapter {
         return new ServletRegistrationBean<>(servlet, "/ws/*");
     }
 
-    @Bean
-    public TranslateRepository translateRepository(){
-        return new TranslateRepository();
-    }
 
     @Bean(name = "translator")
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema translatorSchema) {
