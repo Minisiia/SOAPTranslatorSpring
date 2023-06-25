@@ -17,7 +17,7 @@ Implement your first simple SOAP word translation services. The service knows ab
    <soapenv:Header/>
    <soapenv:Body>
       <gs:TranslationRequest>
-         <word>конфета</word>
+         <word>як справи?</word>
       </gs:TranslationRequest>
    </soapenv:Body>
 </soapenv:Envelope>
@@ -30,7 +30,7 @@ Implement your first simple SOAP word translation services. The service knows ab
     <SOAP-ENV:Header/>
     <SOAP-ENV:Body>
         <ns3:TranslationResponse xmlns:ns3="http://example.com/translator">
-            <translatedWord>candy</translatedWord>
+            <translatedWord>how are you?</translatedWord>
         </ns3:TranslationResponse>
     </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
