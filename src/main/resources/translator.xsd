@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://example.com/translator"
+           targetNamespace="http://example.com/translator">
+
+    <xs:element name="TranslationRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="word" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="TranslationResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="translatedWord" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
