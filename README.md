@@ -9,6 +9,9 @@ Implement your first simple SOAP word translation services. The service knows ab
 
 ## Заметки
 
+![soap-spring](https://github.com/Minisiia/SOAPTranslatorSpring/assets/113467640/278be00b-d29b-47e4-b6ce-a725d4401871)
+
+
 ### SOAP Request
 
 ```
