@@ -1,6 +1,6 @@
 package com.example.SOAPTranslatorSpring.repository;
 
-import com.example.SOAPTranslatorSpring.accessingdatamysql.Translations;
+import com.example.SOAPTranslatorSpring.model.Translations;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.data.jpa.repository.Query;

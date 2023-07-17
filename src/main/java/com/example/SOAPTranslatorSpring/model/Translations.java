@@ -1,4 +1,4 @@
-package com.example.SOAPTranslatorSpring.accessingdatamysql;
+package com.example.SOAPTranslatorSpring.model;
 
 import jakarta.persistence.*;
 @Entity
